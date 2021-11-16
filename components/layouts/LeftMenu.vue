@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="leftMenu">
     <p>필수사항</p>
     <ul>
       <li v-for="(item, i) in routeData" :key="i">
@@ -62,6 +62,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.leftMenu {
+  height: 100vh;
+  overflow-y: auto;
+}
 ul {
   li {
     padding: 0 10px;
