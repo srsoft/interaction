@@ -1,6 +1,6 @@
 <template>
   <div class="leftMenu">
-    <p>필수사항</p>
+    <nuxt-link :to="{ path: '/' }">필수사항</nuxt-link>
     <ul>
       <li v-for="(item, i) in routeData" :key="i">
         <nuxt-link :to="{ name: item.name }" :class="{ on: currentRouteCheck(item) }">{{ item.title }}</nuxt-link>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>splash</p>
+    <nuxt-link :to="{ path: '/' }">splash</nuxt-link>
     <ul>
       <li v-for="(item, i) in routeData" :key="i">
         <nuxt-link :to="{ name: item.name }" :class="{ on: currentRouteCheck(item) }">{{ item.title }}</nuxt-link>
