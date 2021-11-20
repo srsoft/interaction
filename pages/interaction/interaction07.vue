@@ -1,43 +1,38 @@
 <template>
   <div>
-    <button @click="modal1 = true" class="button--green">modal1</button>
-    <button @click="modal2 = true" class="button--green">modal2</button>
+    <link rel="stylesheet" href="https://www.cssscript.com/demo/material-bottom-sheet/main.1f19ae8e.css">
 
-    <swipemodal
-      v-model="modal1"
-      height="80vh"
-      width="100%"
-      radius="20px"
-    >
-      <h1>contents1</h1>
-    </swipemodal>
-    <swipemodal
-      v-model="modal2"
-      height="50vh"
-      width="300px"
-      radius="10px"
-    >
-      <h1>contents2</h1>
-    </swipemodal>
+    <button id="country-select-button">Open The Bottom Sheet</button>
+    <!-- bottom sheet -->
+    <div id="country-selector" class="c-bottom-sheet c-bottom-sheet--list">
+      <div class="c-bottom-sheet__scrim"></div>
+      <div class="c-bottom-sheet__sheet">
+
+        <div class="c-bottom-sheet__handle"><span></span><span></span></div>
+
+        <ul class="c-bottom-sheet__list">
+          <li class="c-bottom-sheet__item active"><a class="c-bottom-sheet__link" href="/">JavaScript</a></li>
+          <li class="c-bottom-sheet__item"><a class="c-bottom-sheet__link" href="">CSS/CSS3</a></li>
+          <li class="c-bottom-sheet__item"><a class="c-bottom-sheet__link" href="">HTML5/XML</a></li>
+          <li class="c-bottom-sheet__item"><a class="c-bottom-sheet__link" href="">Angular.js</a></li>
+          <li class="c-bottom-sheet__item"><a class="c-bottom-sheet__link" href="">React.js</a></li>
+        </ul>
+
+      </div>
+      <div class="c-bottom-sheet__container"></div>
+    </div>
+
+    <script src="https://www.cssscript.com/demo/material-bottom-sheet/main.1f19ae8e.js"></script>
   </div>
 </template>
 
 <script>
-import swipemodal from 'nekoo_vue_swipemodal'
-import 'nekoo_vue_swipemodal/dist/swipemodal.css'
-
 export default {
   name: 'Interaction07',
-
-  components: {
-    swipemodal
-  },
   layout: 'interaction',
 
   data () {
     return {
-      modal1: false,
-      modal2: false
     }
   }
 }
