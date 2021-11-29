@@ -27,6 +27,7 @@ export default {
   }
   .main {
     flex: 1;
+    align-items: flex-start;
     text-align: left;
     padding: 20px;
   }

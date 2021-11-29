@@ -25,6 +25,87 @@
         of Lorem Ipsum.
       </p>
     </swipeable-bottom-sheet>
+
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    <button @click="open">
+      Open
+    </button>
+    <button @click="half">
+      Half
+    </button>
+    <button @click="close">
+      Close
+    </button>
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
+    2222<br />
   </div>
 </template>
 

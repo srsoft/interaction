@@ -2,7 +2,49 @@
   <div>
     <link rel="stylesheet" href="https://www.cssscript.com/demo/material-bottom-sheet/main.1f19ae8e.css">
 
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+    1 <br />
+
     <button id="country-select-button">Open The Bottom Sheet</button>
+
     <!-- bottom sheet -->
     <div id="country-selector" class="c-bottom-sheet c-bottom-sheet--list">
       <div class="c-bottom-sheet__scrim"></div>
