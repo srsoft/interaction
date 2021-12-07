@@ -5,7 +5,7 @@
       <TabItem
         v-for="item in list"
         v-bind="item"
-        :key="item.id"
+        :key="item"
         v-model="currentId"
       />
     </div>

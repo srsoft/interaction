@@ -45,7 +45,8 @@ export default {
         { name: 'interaction-interaction22', title: '22. 가로 스크롤 베너, 선택시 앞뒤 뒤집음' },
         { name: 'interaction-interaction23', title: '23. 물차오르는 효과, 퍼센트 표시' },
         { name: 'interaction-interaction24', title: '24. 폭죽 터지는 인터렉션' },
-        { name: 'interaction-interaction25', title: '25. Flickity - Instagram style dots' }
+        { name: 'interaction-interaction25', title: '25. Flickity - Instagram style dots' },
+        { name: 'interaction-interaction26', title: '26. 베너클릭 > 상세페이지' }
       ],
       etcData: [
         { name: 'etc-etc01', title: '모달' }

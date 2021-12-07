@@ -30,10 +30,11 @@ body { font-family: sans-serif; }
 $dot-width: 20px;
 
 .flickity-page-dots {
+  border: 1px solid red;
   transition: all .3s .2s;
   left: 50%;
   width: $dot-width * 7;
-  margin-left: ($dot-width * -7 / 2);
+  margin-left: calc($dot-width * -7 / 2);
   overflow: hidden;
   display: block;
   white-space: nowrap;
